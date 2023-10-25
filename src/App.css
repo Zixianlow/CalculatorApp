@@ -7,7 +7,7 @@ body {
 .calculator-background {
     display: grid;
     justify-content: center;
-    width: 100vh;
+    width: 100vw;
     height: 80vh;
 }
 
