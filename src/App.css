@@ -6,6 +6,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
+    font-family: Tahoma, sans-serif;
 }
 
 .calculator-background {
@@ -18,7 +19,7 @@ body {
 .calculator {
     background-color: black;
     padding: 30px;
-    width: 400px;
+    width: 350px;
     justify-content: center;
     margin: auto -30px;
     border: 3px solid white;
@@ -44,7 +45,7 @@ body {
 
 .calculator-button {
     display: grid;
-    grid-template-columns: repeat(4, 6rem);
+    grid-template-columns: repeat(4, 5rem);
     grid-template-rows: minmax(3rem, auto);
     grid-gap: 10px;
     justify-content: center;
@@ -54,11 +55,16 @@ body {
 }
 
 button {
-    width: 6rem;
+    width: 5rem;
     height: 5rem;
     background-color: rgba(192, 192, 192, .75);
     border-radius: 20px;
+    font-size: 25px;
 }
+
+button:hover {
+    background-color: rgba(128, 128, 128, .75);
+} 
 
 .operand-previous {
     font-size: 15px;
@@ -69,6 +75,6 @@ button {
 }
 
 .span-two {
-    width: 12.5rem;
+    width: 10.5rem;
     grid-column: span 2;
 }
