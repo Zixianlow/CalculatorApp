@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: black;
-    background-image: url(Assets/geometry.jpg);
+    background-image: url(assets/geometry.jpg);
     background-size: 3200 ✕ 1800;
     background-position: center center;
     background-repeat: no-repeat;
